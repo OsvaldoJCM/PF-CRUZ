@@ -10,10 +10,11 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
-  padding: 5px 10%;
   background-color: #00559f;
+  width: 100%;
 }
 
 .logo {
@@ -24,14 +25,14 @@ header {
   .logo {
     width: 150px;
   }
+
+
 }
 
-/* main {
-  margin: 20px;
-  margin-top: 0;
-} */
 
-
+.carousel-item {
+  height: 300px;
+}
 
 footer {
   padding: 20px;
@@ -89,14 +90,20 @@ h2 {
 
 .contenedorInicio {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px;
 
+}
+
+.contenedorInicio iframe {
+  width: 80%;
 }
 
 /* PRODUCTOS */
 .contenedor {
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: center; */
   justify-content: space-between;
 }
 

@@ -16,14 +16,15 @@
 
 <body>
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a href="/" class="navbar-brand">
-                <img src="../img/logo_blanco.png" alt="logo" width="200">
+                <img src="img/logo_blanco.png" alt="logo" width="200">
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-white px-5" id="navbarCollapse">
+            <div class="collapse navbar-collapse text-white px-5 justify-content-end" id="navbarCollapse">
                 <div class="navbar-nav">
                     <a href="index.html" class="nav-item nav-link fs-5">Inicio</a>
                     <a href="html/productos.html" class="nav-item nav-link fs-5 ">Productos</a>
@@ -35,14 +36,10 @@
         </nav>
     </header>
     <main>
-        <!-- <img class="banner" src="img/banner.png" alt="banner"> -->
-        <!-- <div class="contenedorBanner">
-            <img src="img/banner.png" alt="banner" />
-        </div> -->
         <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="img/banner.png" class="d-block w-100" alt="banner" />
+                    <img src="img/banner.png" class="d-block w-100 " alt="banner" />
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
                     <img src="img/proyecto2.jpg" class="d-block w-100" alt="...">
@@ -64,41 +61,44 @@
         </div>
 
         <div class="contenedorInicio">
-            <div>
-                <h1>Bienvenido a nuestro portal</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-                    minima consequatur praesentium optio sequi, ad eveniet rerum quas
-                    distinctio doloribus dolor enim deleniti aspernatur odit, ab iusto
-                    voluptatibus consectetur deserunt. Quod, asperiores est iste quam
-                    quidem commodi dignissimos odio aperiam ut accusantium facilis
-                    error, nam laborum? Minima officiis molestiae totam ratione fugiat,
-                    veritatis omnis sint quibusdam suscipit quos sed sapiente. Accusamus
-                    magnam eveniet aut maiores asperiores. Reprehenderit, facilis!
-                    Optio, eum esse earum fugiat alias sed eaque, molestias tempore
-                    dolorem iusto magni architecto ullam impedit pariatur fugit, id
-                    consectetur commodi quae.
-                </p>
-                <h3>¿Qué es un termopanel?</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-                    minima consequatur praesentium optio sequi, ad eveniet rerum quas
-                    distinctio doloribus dolor enim deleniti aspernatur odit, ab iusto
-                    voluptatibus consectetur deserunt. Quod, asperiores est iste quam
-                    quidem commodi dignissimos odio aperiam ut accusantium facilis
-                    error, nam laborum? Minima officiis molestiae totam ratione fugiat,
-                    veritatis omnis sint quibusdam suscipit quos sed sapiente. Accusamus
-                    magnam eveniet aut maiores asperiores. Reprehenderit, facilis!
-                    Optio, eum esse earum fugiat alias sed eaque, molestias tempore
-                    dolorem iusto magni architecto ullam impedit pariatur fugit, id
-                    consectetur commodi quae.
-                </p>
-            </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/88FOlKolIco"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+            <div class="row">
+                <div class="col-lg pb-2 ">
+                    <h1>Bienvenido a nuestro portal</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                        minima consequatur praesentium optio sequi, ad eveniet rerum quas
+                        distinctio doloribus dolor enim deleniti aspernatur odit, ab iusto
+                        voluptatibus consectetur deserunt. Quod, asperiores est iste quam
+                        quidem commodi dignissimos odio aperiam ut accusantium facilis
+                        error, nam laborum? Minima officiis molestiae totam ratione fugiat,
+                        veritatis omnis sint quibusdam suscipit quos sed sapiente. Accusamus
+                        magnam eveniet aut maiores asperiores. Reprehenderit, facilis!
+                        Optio, eum esse earum fugiat alias sed eaque, molestias tempore
+                        dolorem iusto magni architecto ullam impedit pariatur fugit, id
+                        consectetur commodi quae.
+                    </p>
+                    <h2>¿Qué es un termopanel?</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                        minima consequatur praesentium optio sequi, ad eveniet rerum quas
+                        distinctio doloribus dolor enim deleniti aspernatur odit, ab iusto
+                        voluptatibus consectetur deserunt. Quod, asperiores est iste quam
+                        quidem commodi dignissimos odio aperiam ut accusantium facilis
+                        error, nam laborum? Minima officiis molestiae totam ratione fugiat,
+                        veritatis omnis sint quibusdam suscipit quos sed sapiente. Accusamus
+                        magnam eveniet aut maiores asperiores. Reprehenderit, facilis!
+                        Optio, eum esse earum fugiat alias sed eaque, molestias tempore
+                        dolorem iusto magni architecto ullam impedit pariatur fugit, id
+                        consectetur commodi quae.
+                    </p>
+                </div>
+
+                <div class="col-lg pb-2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/88FOlKolIco"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </main>
@@ -113,7 +113,8 @@
     <footer class="text-center text-white">
         <div class="container pt-4">
             <section class="mb-4">
-                <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.facebook.com" role="button">
+                <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.facebook.com" target="_blank"
+                    role="button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-facebook" viewBox="0 0 16 16">
                         <path
@@ -122,7 +123,7 @@
                 </a>
 
                 <a class="btn btn-link btn-floating btn-lg m-1" href="https://github.com/OsvaldoJCM/preentrega"
-                    role="button">
+                    target="_blank" role="button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-github" viewBox="0 0 16 16">
                         <path
@@ -130,7 +131,7 @@
                     </svg></a>
 
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com"
-                    role="button">
+                    target="_blank" role="button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-instagram" viewBox="0 0 16 16">
                         <path
@@ -138,7 +139,8 @@
                     </svg>
                 </a>
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.whatsapp.com" role="button">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.whatsapp.com"
+                    target="_blank" role="button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-whatsapp" viewBox="0 0 16 16">
                         <path
