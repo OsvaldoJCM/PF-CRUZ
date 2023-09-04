@@ -14,23 +14,27 @@ header {
   align-items: center;
   padding: 5px 10%;
   background-color: #00559f;
-  border-bottom: 1px solid #4681a8ff;
 }
 
 .logo {
-  width: 350px;
-  cursor: pointer;
+  width: 250px;
 }
 
-main {
+@media (max-width: 900px) and (min-width: 400px) {
+  .logo {
+    width: 150px;
+  }
+}
+
+/* main {
   margin: 20px;
   margin-top: 0;
-  padding: 20px;
-}
+} */
+
+
 
 footer {
   padding: 20px;
-  border-top: 1px solid #70c2b0ff;
   text-align: center;
   color: white;
   background-color: #00559f;
@@ -85,13 +89,15 @@ h2 {
 
 .contenedorInicio {
   display: flex;
+
 }
 
 /* PRODUCTOS */
 .contenedor {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-between;
 }
 
 .contenedorProductos {
@@ -100,6 +106,13 @@ h2 {
   border: 4px solid #63666a;
   border-radius: 10px;
   background-color: #63666a;
+}
+
+@media (min-width: 800px) {
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
 }
 
 .imgProducto {
@@ -200,4 +213,8 @@ textarea {
 
 .quienesSomos {
   display: flex;
+}
+
+img {
+  object-fit: cover;
 }
