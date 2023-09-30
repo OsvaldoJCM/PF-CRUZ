@@ -155,25 +155,40 @@ header nav ul li {
 
 .proyecto {
   display: flex;
+  flex-flow: row nowrap;
   margin: 20px;
   border: 4px solid;
   border-radius: 10px;
 }
+@media (max-width: 900px) and (min-width: 400px) {
+  .proyecto {
+    flex-flow: column nowrap;
+  }
+}
 .proyecto .imgProyecto {
-  width: 70%;
+  width: 50%;
   border-radius: 5px;
+}
+@media (max-width: 900px) and (min-width: 400px) {
+  .proyecto .imgProyecto {
+    width: 100%;
+  }
 }
 
 .textoProyecto {
   margin: 20px;
   color: #00559f;
 }
+@media (max-width: 900px) and (min-width: 400px) {
+  .textoProyecto {
+    text-align: center;
+  }
+}
 .textoProyecto p {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 .textoProyecto .btnVerMas {
-  width: 70%;
   background-color: #569ead;
   border: none;
   padding: 10px 20px;
@@ -231,7 +246,7 @@ textarea {
 }
 
 .error {
-  background-image: url("../img/construyendo.jpg");
+  background-image: url("../img/construyendo.webp");
   height: 500px;
   background-position: center;
   background-size: cover;
