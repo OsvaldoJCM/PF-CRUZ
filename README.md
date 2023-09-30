@@ -3,6 +3,7 @@ Sitio Web de Soluciones termoacústicas CYCWIN
 Descripción:
 
 El sitio web "Soluciones termoacústicas" es el destino definitivo para todas tus necesidades relacionadas con ventanas termoacústicas, cierres metálicos de alta seguridad y trabajos con vidrio, incluyendo shower doors elegantes. Este proyecto fue realizado como parte de un curso de desarrollo web de Coderhouse y utiliza las últimas tecnologías web, incluyendo HTML5, CSS3 y SASS.
+
 Características Principales
 
     Catálogo de productos: Explora nuestras opciones de ventanas termoacústicas diseñadas para mejorar la eficiencia energética y reducir el ruido.
@@ -22,13 +23,13 @@ Tecnologías Utilizadas
     Control de Versiones: Git y GitHub
     Herramienta de Desarrollo: Visual Studio Code
 
-Enlaces de Acceso
+Enlaces de Acceso 
 
-    Repositorio de GitHub: [<a href="https://github.com/OsvaldoJCM/PF-CRUZ">GitHub Repository</a>](https://github.com/OsvaldoJCM/PF-CRUZ)
-    GitHub Pages: [GitHub Pages](https://osvaldojcm.github.io/PF-CRUZ/)
-    Vercel Deployment: [Vercel Deployment](https://cycwin.vercel.app/)
+    Repositorio de GitHub : https://github.com/OsvaldoJCM/PF-CRUZ
+    GitHub Pages          : https://osvaldojcm.github.io/PF-CRUZ/
+    Vercel Deployment     : https://cycwin.vercel.app/ 
 
-Requisitos del Sistema
+Información adicional.
 
 Para acceder a nuestro sitio web, solo necesitas un navegador web moderno, como Google Chrome, Mozilla Firefox o Microsoft Edge. No se requieren descargas especiales ni plugins.
 Estado del Proyecto
