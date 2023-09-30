@@ -10,11 +10,11 @@ form, .proyecto, .cajaProducto, .quienesSomos {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.btnFormulario, .textoProyecto, .proyecto .imgProyecto, .btnCotizar {
+.error a, .btnFormulario, .textoProyecto, .proyecto .imgProyecto, .btnCotizar {
   opacity: 0.8;
   transition: opacity 0.3s linear;
 }
-.btnFormulario:hover, .textoProyecto:hover, .proyecto .imgProyecto:hover, .btnCotizar:hover {
+.error a:hover, .btnFormulario:hover, .textoProyecto:hover, .proyecto .imgProyecto:hover, .btnCotizar:hover {
   opacity: 2;
 }
 
@@ -256,11 +256,11 @@ textarea {
   text-align: center;
 }
 .error h1 {
-  font-size: 5vw;
+  font-size: 8vw;
   color: white;
 }
 .error h3 {
-  font-size: 3vw;
+  font-size: 6vw;
   margin-bottom: 20px;
 }
 .error a {
