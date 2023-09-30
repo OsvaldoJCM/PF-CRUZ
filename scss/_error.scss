@@ -1,0 +1,34 @@
+.error {
+    background-image: url("../img/construyendo.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    h1 {
+        font-size: 5vw;
+        color: white;
+    }
+
+    h3 {
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
+
+    a {
+        // @include boton;
+        background-color: $mainColor;
+        font-size: 28px;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        @extend %baseLinks;
+
+    }
+
+
+}

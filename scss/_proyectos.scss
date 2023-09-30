@@ -7,19 +7,25 @@
 }
 
 .proyecto {
+    // opacity: 0.7;
+    @extend %sombraContenedor;
     display: flex;
     margin: 20px;
-    border: 4px solid #c8cbce;
+    border: 4px solid;
     border-radius: 10px;
-    background-color: #c8cbce;
+    // background-color: #c8cbce;
 
     .imgProyecto {
-        width: 50%;
+        @extend %efectoHover;
+        width: 70%;
+        border-radius: 5px;
     }
 }
 
 .textoProyecto {
+    @extend %efectoHover;
     margin: 20px;
+    color: $mainColor;
 
     p {
         margin-top: 20px;
@@ -27,6 +33,8 @@
     }
 
     .btnVerMas {
+        // @extend %efectoHover;
+        width: 70%;
         @include boton;
     }
 }

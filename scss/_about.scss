@@ -1,8 +1,11 @@
 .quienesSomos {
     margin: 20px;
+    @extend %sombraContenedor;
+    border-radius: 10px;
 
     .misionVision {
         text-align: center;
+        margin: 10px 0 10px 0;
 
         h3 {
             color: $mainColor;
